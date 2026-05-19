@@ -6,7 +6,7 @@ export default function RootLayout() {
     <>
       <Header /> {/*헤더*/}
       <main>
-        <Outlet />{" "}
+        <Outlet />
         {/*App.jsx에서 Root Layout 하위에 있던 Main 페이지가 설정한 경로에 따라 <Out let> 자리에 들어간다*/}
       </main>
     </>
