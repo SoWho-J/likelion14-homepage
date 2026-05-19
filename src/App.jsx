@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // react-router-dom에서 라우팅에 필요한 기능을 가져오는 부분.
 import RootLayout from "../src/layout/RootLayout.jsx"; // 컴포넌트들 가져오기.
-import Main from "../src/pages/Main/Main.jsx";
+import Members from "../src/pages/main/Members.jsx";
 
 function App() {
   // 앱의 중심컴포넌트
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route element={<RootLayout />}>
           {/* 이 아래 모든 페이지는 RootLayout을 공통으로 사용하겠다는 의미*/}
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Members />} />
           {/* 메인 호출. 화면은 메인에서 시작, 주소가 /이면 메인페이지를 보여줘*/}
         </Route>
       </Routes>

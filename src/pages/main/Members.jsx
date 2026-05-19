@@ -1,4 +1,4 @@
-export default function Main() {
+export default function Members() {
   return (
     <div>
       <div></div>
